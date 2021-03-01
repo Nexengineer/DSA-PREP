@@ -30,12 +30,15 @@ class BinarySearchTree {
         System.out.println(BSTTreeNode.heightOfTree(root));
 
         System.out.println("---------->");
-        List<BSTTreeNode> leafnodes = new ArrayList<>();
-        leafnodes = BSTTreeNode.findLeafNode(root, leafnodes);
+        List<BSTTreeNode> leafNodes = new ArrayList<>();
+        leafNodes = BSTTreeNode.findLeafNode(root, leafNodes);
 
-        for (BSTTreeNode node : leafnodes) {
+        for (BSTTreeNode node : leafNodes) {
             System.out.println(node.data);
         }
+
+        System.out.println("---------->");
+        System.out.println(BSTTreeNode.findDiameterOfBST(root));
     }
 
     private static class BSTTreeNode {
@@ -129,6 +132,23 @@ class BinarySearchTree {
             return leafNodes;
         }
 
+        public static int findDiameterOfBST(BSTTreeNode root){
+            if(root == null){
+                return 0;
+            }
+            int leftHeight = heightOfTree(root.leftNode);
+            int rightHeight = heightOfTree(root.rightNode);
+
+            int leftDiameter = findDiameterOfBST(root.leftNode);
+            int rightDiameter = findDiameterOfBST(root.rightNode);
+
+            var totalHeight = leftHeight + rightHeight + 1;
+            if(leftDiameter > rightDiameter){
+                return Math.max(totalHeight, leftDiameter);
+            } else {
+                return Math.max(totalHeight, rightDiameter);
+            }
+        }
     }
 }
 
