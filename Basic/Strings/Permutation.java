@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.lang.Integer;
 
+// [EASY]
 public class Permutation {
     public static boolean checkForPermutation(String first, String second){
         Map<String, Integer> occurance = new HashMap<>();

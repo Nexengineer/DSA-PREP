@@ -1,5 +1,6 @@
 package Strings;
 
+// [EASY]
 public class IsUnique {
     public static boolean checkBruteForce(String value){
         for (int i = 0; i<value.length(); i++){
