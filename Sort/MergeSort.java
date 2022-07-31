@@ -1,13 +1,13 @@
 
 class MergeSort {
-    public static void main(String[] args){
-        int[] array = {33,22,44,11,3,6,99};
-        System.out.print("Unsorted array --->");
-        printArray(array);
-        mergeSort(array, 0, array.length - 1);    
-        System.out.print("Sorted array --->");
-        printArray(array);
-    }
+    // public static void main(String[] args){
+    //     int[] array = {33,22,44,11,3,6,99};
+    //     System.out.print("Unsorted array --->");
+    //     printArray(array);
+    //     mergeSort(array, 0, array.length - 1);    
+    //     System.out.print("Sorted array --->");
+    //     printArray(array);
+    // }
 
     public static void printArray(int[] array){
         for (int i : array) {

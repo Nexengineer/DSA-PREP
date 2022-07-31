@@ -4,42 +4,42 @@ import java.util.List;
 import java.util.Queue;
 
 class BinarySearchTree {
-    public static void main(String[] args) {
-        System.out.println("Hello ! this is the implementation of Binary search tree");
-        BSTTreeNode root = BSTTreeNode.insertIntoBST(null, 4);
-        BSTTreeNode.insertIntoBST(root, 22);
-        BSTTreeNode.insertIntoBST(root, 11);
-        BSTTreeNode.insertIntoBST(root, 34);
-        BSTTreeNode.insertIntoBST(root, 23);
-        BSTTreeNode.insertIntoBST(root, 45);
-        BSTTreeNode.insertIntoBST(root, 12);
+    // public static void main(String[] args) {
+    //     System.out.println("Hello ! this is the implementation of Binary search tree");
+    //     BSTTreeNode root = BSTTreeNode.insertIntoBST(null, 4);
+    //     BSTTreeNode.insertIntoBST(root, 22);
+    //     BSTTreeNode.insertIntoBST(root, 11);
+    //     BSTTreeNode.insertIntoBST(root, 34);
+    //     BSTTreeNode.insertIntoBST(root, 23);
+    //     BSTTreeNode.insertIntoBST(root, 45);
+    //     BSTTreeNode.insertIntoBST(root, 12);
 
-        System.out.println("---------->");
-        BSTTreeNode.preOrderTraversal(root);
+    //     System.out.println("---------->");
+    //     BSTTreeNode.preOrderTraversal(root);
 
-        System.out.println("---------->");
-        BSTTreeNode.inOrderTraversal(root);
+    //     System.out.println("---------->");
+    //     BSTTreeNode.inOrderTraversal(root);
 
-        System.out.println("---------->");
-        BSTTreeNode.postOrderTraversal(root);
+    //     System.out.println("---------->");
+    //     BSTTreeNode.postOrderTraversal(root);
 
-        System.out.println("---------->");
-        BSTTreeNode.levelOrderTraversal(root);
+    //     System.out.println("---------->");
+    //     BSTTreeNode.levelOrderTraversal(root);
 
-        System.out.println("---------->");
-        System.out.println(BSTTreeNode.heightOfTree(root));
+    //     System.out.println("---------->");
+    //     System.out.println(BSTTreeNode.heightOfTree(root));
 
-        System.out.println("---------->");
-        List<BSTTreeNode> leafNodes = new ArrayList<>();
-        leafNodes = BSTTreeNode.findLeafNode(root, leafNodes);
+    //     System.out.println("---------->");
+    //     List<BSTTreeNode> leafNodes = new ArrayList<>();
+    //     leafNodes = BSTTreeNode.findLeafNode(root, leafNodes);
 
-        for (BSTTreeNode node : leafNodes) {
-            System.out.println(node.data);
-        }
+    //     for (BSTTreeNode node : leafNodes) {
+    //         System.out.println(node.data);
+    //     }
 
-        System.out.println("---------->");
-        System.out.println(BSTTreeNode.findDiameterOfBST(root));
-    }
+    //     System.out.println("---------->");
+    //     System.out.println(BSTTreeNode.findDiameterOfBST(root));
+    // }
 
     private static class BSTTreeNode {
         int data;

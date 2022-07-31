@@ -3,9 +3,9 @@ package Graphs;
 import java.util.ArrayList;
 
 public class GraphRunner {
-    public static void main(String [] args){
-        runGraphSimpleGraph();
-    }
+    // public static void main(String [] args){
+    //     runGraphSimpleGraph();
+    // }
 
     public static void runGraphSimpleGraph(){
         System.out.println("Inside Run Simple Graph");

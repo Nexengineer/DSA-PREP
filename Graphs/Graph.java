@@ -86,17 +86,17 @@ public class Graph {
 
     public void doBFS(int start){
         Set<Integer> keys = adjencyList.keySet();
-        boolean visited[] = new boolean[keys.size() + 1];
+        List<Integer> visited = new ArrayList<>();
 
         Queue<Integer> queue = new LinkedList<Integer>();
-        visited[start] = true;
+        visited.add(start);
         queue.add(start);
         while(!queue.isEmpty()){
             int node = queue.poll();
             System.out.println(node);
             adjencyList.get(node).stream().forEach(e -> {
-                if(!visited[e]){
-                    visited[e] = true;
+                if(!visited.contains(e)){
+                    visited.add(e);
                     queue.add(e);
                 }
             });

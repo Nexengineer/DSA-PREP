@@ -71,35 +71,35 @@ class TreeNode{
    (6)(7) (9)(10)
 */
 class BinaryTree {
-    public static void main(String[] args){
-        TreeNode root = new TreeNode(4);
-        TreeNode node1 = new TreeNode(5);
-        TreeNode node2 = new TreeNode(8);
-        root.leftNode = node1;
-        root.rightNode = node2;
-        TreeNode node3 = new TreeNode(6);
-        TreeNode node4 = new TreeNode(7);
-        node1.leftNode = node3;
-        node1.rightNode = node4;
-        TreeNode node5 = new TreeNode(9);
-        TreeNode node6 = new TreeNode(10);                                                      
-        node2.leftNode = node5;
-        node2.rightNode = node6;
-        TreeNode node7 = new TreeNode(11);
-        TreeNode node8 = new TreeNode(12);
-        node3.leftNode = node7;
-        node3.rightNode = node8;
-        TreeNode node9 = new TreeNode(13);
-        node4.leftNode = node9;
-        // Traversal
-        // TreeNode.preorderDFS(root);
-        // System.out.println("---------------------------------------->");
-        // TreeNode.inorderDFS(root);
-        // System.out.println("---------------------------------------->");
-        // TreeNode.postOrderDFS(root);
-        // System.out.println("---------------------------------------->");
-        // TreeNode.levelOrderTraversal(root);
-        System.out.println(TreeNode.heightOfTree(root));
-    }
+    // public static void main(String[] args){
+    //     TreeNode root = new TreeNode(4);
+    //     TreeNode node1 = new TreeNode(5);
+    //     TreeNode node2 = new TreeNode(8);
+    //     root.leftNode = node1;
+    //     root.rightNode = node2;
+    //     TreeNode node3 = new TreeNode(6);
+    //     TreeNode node4 = new TreeNode(7);
+    //     node1.leftNode = node3;
+    //     node1.rightNode = node4;
+    //     TreeNode node5 = new TreeNode(9);
+    //     TreeNode node6 = new TreeNode(10);                                                      
+    //     node2.leftNode = node5;
+    //     node2.rightNode = node6;
+    //     TreeNode node7 = new TreeNode(11);
+    //     TreeNode node8 = new TreeNode(12);
+    //     node3.leftNode = node7;
+    //     node3.rightNode = node8;
+    //     TreeNode node9 = new TreeNode(13);
+    //     node4.leftNode = node9;
+    //     // Traversal
+    //     // TreeNode.preorderDFS(root);
+    //     // System.out.println("---------------------------------------->");
+    //     // TreeNode.inorderDFS(root);
+    //     // System.out.println("---------------------------------------->");
+    //     // TreeNode.postOrderDFS(root);
+    //     // System.out.println("---------------------------------------->");
+    //     // TreeNode.levelOrderTraversal(root);
+    //     System.out.println(TreeNode.heightOfTree(root));
+    // }
 }
 

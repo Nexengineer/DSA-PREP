@@ -1,7 +1,7 @@
 public class DigitFrequency {
-    public static void main(String[] args) {
-        System.out.println(getDigitFrequency(445445, 5));
-    }
+    // public static void main(String[] args) {
+    //     System.out.println(getDigitFrequency(445445, 5));
+    // }
     public static int getDigitFrequency(int n, int d) {
         // write code here
         int count = 0;
