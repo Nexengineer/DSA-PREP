@@ -2,11 +2,11 @@ import java.lang.String;
 public class LinkListRunner {
     private static final String dashedLine = "------------------> ";
 
-    public static void main (String [] args){
-        System.out.println(dashedLine + "Linked List Runner");
-        // basicLinkedList();
-        replaceOccurances();
-    }
+    // public static void main (String [] args){
+    //     System.out.println(dashedLine + "Linked List Runner");
+    //     // basicLinkedList();
+    //     replaceOccurances();
+    // }
 
     static void replaceOccurances(){
         LinkedListNode ll = new LinkedListNode(1);
