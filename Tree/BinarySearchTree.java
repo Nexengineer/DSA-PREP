@@ -22,6 +22,40 @@ public class BinarySearchTree {
         }
     }
 
+    public Node deleteNode(Node node, int data){
+        if(node == null){
+            return node;
+        }
+        if(node.data > data) {
+            node.leftChild = deleteNode(node.leftChild, data);
+        } else if(node.data < data){
+            node.rightChild = deleteNode(node.rightChild, data);
+        } else {
+            // Case 1: No children
+            if (node.leftChild == null && node.rightChild == null){
+                return null;
+            }
+            // Case 2: With one children
+            if(node.rightChild == null || node.leftChild == null){
+                Node copy = node.rightChild == null
+                            ? node.leftChild : node.rightChild;
+                return copy; 
+            }
+            // Case 3: With two children
+            if(node.leftChild != null && node.rightChild != null){
+                Node copy = node.rightChild;
+                while(copy.leftChild != null){
+                    copy = copy.leftChild;
+                }
+                node.data = copy.data;
+                node.rightChild = deleteNode(node.rightChild, copy.data);
+                return node;
+            }
+            
+        }
+        return node;
+    }
+
     private Node insertNode(Node node, Integer data){
         if (node == null){
             return new Node(data);
