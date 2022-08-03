@@ -50,7 +50,7 @@ public class Graph {
         if(isBiDirectional){
             adjencyList.get(destination).remove(source);
         }
-        adjencyList.get(source).remove(source);
+        adjencyList.get(source).remove(destination);
     }
 
     public void printGraph(){
@@ -85,7 +85,6 @@ public class Graph {
     }
 
     public void doBFS(int start){
-        Set<Integer> keys = adjencyList.keySet();
         List<Integer> visited = new ArrayList<>();
 
         Queue<Integer> queue = new LinkedList<Integer>();
