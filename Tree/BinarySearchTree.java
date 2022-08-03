@@ -7,29 +7,35 @@ public class BinarySearchTree {
     public Node root;
     
     public void add(Integer data){
-        Node newNode = new Node(data);
-        insertNode(newNode, root);
+        if (this.root == null){
+            this.root = new Node(data);
+            return;
+        }
+        insertNode(this.root, data);
     }
 
     public void doInorderTraversal(Node node){
-        if(node == null){
-            return;
+        if(node != null){
+            doInorderTraversal(node.leftChild);
+            System.out.println(node.data + ",");
+            doInorderTraversal(node.rightChild);
         }
-        doInorderTraversal(node.leftChild);
-        System.out.println(node.data);
-        doInorderTraversal(node.rightChild);
     }
 
-    private void insertNode(Node newNode, Node node){
+    private Node insertNode(Node node, Integer data){
         if (node == null){
-            node = newNode;
+            return new Node(data);
         }
-        if(node.data < newNode.data){
-            insertNode(newNode, node.rightChild);
+
+        if (node.data > data){
+            node.leftChild = insertNode(node.leftChild, data);
         }
-        if (node.data > newNode.data){
-            insertNode(newNode, node.leftChild);
+
+        if(node.data < data){
+            node.rightChild = insertNode(node.rightChild, data);
         }
+        
+        return node;
     }
 
 }

@@ -1,11 +1,11 @@
 package Tree;
 
 public class Node {
-    Integer data;
-    Node leftChild;
-    Node rightChild;
+    public Integer data;
+    public Node leftChild;
+    public Node rightChild;
 
-    Node(Integer data){
+    public Node(Integer data){
         this.data = data;
         this.leftChild= null;
         this.rightChild = null;
