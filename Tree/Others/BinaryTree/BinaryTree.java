@@ -1,3 +1,4 @@
+package Tree.Others.BinaryTree;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -33,6 +34,7 @@ class TreeNode{
             System.out.println(root.data);
         }
     }
+
     public static void levelOrderTraversal(TreeNode root){
         if(root == null){
             System.out.println("This tree is empty");
