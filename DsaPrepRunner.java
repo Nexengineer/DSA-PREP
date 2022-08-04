@@ -27,18 +27,22 @@ public class DsaPrepRunner {
         tree.add(16);
         tree.add(2);
         tree.add(4);
-        tree.add(1);
-        tree.add(18);
 
         tree.doInorderTraversal(tree.root);
-        // One child on the left 
+        // --------> One child on the left 
         // tree.deleteNode(tree.root, 2);
-        // One child on the right 
+        // --------> One child on the right 
         // tree.deleteNode(tree.root, 18);
-        // With root node deleted (both childrens)
+        // --------> With root node deleted (both childrens)
         // tree.deleteNode(tree.root, 10);
-        System.out.println(dashedLine);
+        System.out.println(dashedLine + "InOrder");
         tree.doInorderTraversal(tree.root);
+        System.out.println(dashedLine + "PreOrder");
+        tree.doPreOrderTraversal(tree.root);
+        System.out.println(dashedLine + "PostOrder");
+        tree.doPostOrderTraversal(tree.root);
+        System.out.println(dashedLine + "Level Order");
+        tree.doBreathFirstTraversal(tree.root);
     }
 
     public static void runBinarySearchProblem(){
