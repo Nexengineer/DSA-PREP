@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import Arrays.BuySellStocks;
 import Search.BinarySearch;
 import Tree.BinarySearchTree;
 
@@ -11,8 +12,8 @@ public class DsaPrepRunner {
         System.out.println(dashedLine);
         // Code to run
             // runBinarySearchProblem();
-            runBSTImplementation();
-
+            // runBSTImplementation();
+            //bestTimeToBuyStocks();
         System.out.println(dashedLine);
     }
 
@@ -55,5 +56,10 @@ public class DsaPrepRunner {
         input.add(11);
         BinarySearch.doBinarySearch(input, 5, 0, input.size()-1);
         BinarySearch.doBinarySearch(input, 15, 0, input.size()-1);
+    }
+
+    public static void bestTimeToBuyStocks(){
+        int a[] = new int[]{7, 1, 5, 3, 6, 4};
+        System.out.println(BuySellStocks.findMaxProfit(a, 6));
     }
 }
