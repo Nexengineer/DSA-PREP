@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Arrays.BuySellStocks;
+import Arrays.ConsecutiveOnes;
 import Search.BinarySearch;
 import Tree.BinarySearchTree;
 
@@ -14,6 +15,7 @@ public class DsaPrepRunner {
             // runBinarySearchProblem();
             // runBSTImplementation();
             //bestTimeToBuyStocks();
+            runConcecutiveOnes();
         System.out.println(dashedLine);
     }
 
@@ -61,5 +63,10 @@ public class DsaPrepRunner {
     public static void bestTimeToBuyStocks(){
         int a[] = new int[]{7, 1, 5, 3, 6, 4};
         System.out.println(BuySellStocks.findMaxProfit(a, 6));
+    }
+
+    public static void runConcecutiveOnes(){
+        int a[] = new int[]{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0};
+        ConsecutiveOnes.countConsicutiveOnes(a, 2);
     }
 }

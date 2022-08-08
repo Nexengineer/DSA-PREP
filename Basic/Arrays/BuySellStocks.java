@@ -1,5 +1,6 @@
 package Arrays;
 
+// [Easy]: We just have to maintain two variables
 public class BuySellStocks {
     public static int findMaxProfit(int[] a, int n){
         if(n <= 0){
