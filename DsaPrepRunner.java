@@ -3,6 +3,7 @@ import java.util.List;
 
 import Arrays.BuySellStocks;
 import Arrays.ConsecutiveOnes;
+import Arrays.MergeIntervals;
 import Search.BinarySearch;
 import Tree.BinarySearchTree;
 
@@ -14,8 +15,9 @@ public class DsaPrepRunner {
         // Code to run
             // runBinarySearchProblem();
             // runBSTImplementation();
-            //bestTimeToBuyStocks();
-            runConcecutiveOnes();
+            // bestTimeToBuyStocks();
+            // runConcecutiveOnes();
+            runMergeIntervals();
         System.out.println(dashedLine);
     }
 
@@ -68,5 +70,10 @@ public class DsaPrepRunner {
     public static void runConcecutiveOnes(){
         int a[] = new int[]{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0};
         ConsecutiveOnes.countConsicutiveOnes(a, 2);
+    }
+
+    public static void runMergeIntervals(){
+        // new int [] {[1,3], [2,6], [8,10]}
+        // MergeIntervals.compute();;
     }
 }
