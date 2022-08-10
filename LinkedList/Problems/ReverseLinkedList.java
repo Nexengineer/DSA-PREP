@@ -1,12 +1,6 @@
 package Problems;
 
 // [Easy]
-
-class ListNode {
-    Integer value;
-    ListNode next;
-}
-
 public class ReverseLinkedList {
     // Approach one - Iterative approach
     public static ListNode reverseLinkedList(ListNode head){
@@ -25,4 +19,18 @@ public class ReverseLinkedList {
         }
         return prev;
     }
+
+    // Approach 2: Recursive approach
+    public static ListNode reverseLinkedListRecursive(ListNode head){
+        if (head == null || head.next == null){
+            return head;
+        }
+
+        ListNode rest = reverseLinkedListRecursive(head.next);
+        head.next.next = head;
+        head.next = null;
+        return rest;
+    }
+
+
 }

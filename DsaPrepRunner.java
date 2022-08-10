@@ -3,7 +3,8 @@ import java.util.List;
 
 import Arrays.BuySellStocks;
 import Arrays.ConsecutiveOnes;
-import Arrays.MergeIntervals;
+import Problems.ListNode;
+import Problems.ReverseLinkedList;
 import Search.BinarySearch;
 import Tree.BinarySearchTree;
 
@@ -11,13 +12,13 @@ public class DsaPrepRunner {
     private static final String dashedLine = "------------------> ";
     public static void main(String [] args){
         System.out.println(dashedLine + "DSA-Runner");
-        System.out.println(dashedLine);
         // Code to run
             // runBinarySearchProblem();
             // runBSTImplementation();
             // bestTimeToBuyStocks();
             // runConcecutiveOnes();
-            runMergeIntervals();
+            // runMergeIntervals();
+            runReverseLinkedList();
         System.out.println(dashedLine);
     }
 
@@ -75,5 +76,22 @@ public class DsaPrepRunner {
     public static void runMergeIntervals(){
         // new int [] {[1,3], [2,6], [8,10]}
         // MergeIntervals.compute();;
+    }
+
+    public static void runReverseLinkedList(){
+        ListNode node1 = new ListNode(1);
+        ListNode node2 = new ListNode(2);
+        ListNode node3 = new ListNode(3);
+        ListNode node4 = new ListNode(4);
+        ListNode node5 = new ListNode(5);
+
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = node4;
+        node4.next = node5;
+
+        ListNode.print(node1);
+        ListNode newNode = ReverseLinkedList.reverseLinkedListRecursive(node1);
+        ListNode.print(newNode);
     }
 }
