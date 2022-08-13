@@ -18,7 +18,9 @@ public class DsaPrepRunner {
             // bestTimeToBuyStocks();
             // runConcecutiveOnes();
             // runMergeIntervals();
-            runReverseLinkedList();
+            // runReverseLinkedList();
+            // runInsertionSort();
+            runQuickSort();
         System.out.println(dashedLine);
     }
 
@@ -93,5 +95,17 @@ public class DsaPrepRunner {
         ListNode.print(node1);
         ListNode newNode = ReverseLinkedList.reverseLinkedListRecursive(node1);
         ListNode.print(newNode);
+    }
+
+    public static void runInsertionSort(){
+        int a[] = new int[]{4, 5, 10, 43, 57, 91, 45, 9, 7};
+        InsertionSort.sort(a);
+    }
+
+    public static void runQuickSort(){
+        int a[] = new int[]{4, 5, 10, 43, 57, 91, 45, 9, 7};
+        QuickSort method = new QuickSort();
+        method.sort(a, 0, a.length-1);
+        InsertionSort.printArray(a);
     }
 }
