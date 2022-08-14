@@ -6,6 +6,7 @@ import Arrays.ConsecutiveOnes;
 import Problems.ListNode;
 import Problems.ReverseLinkedList;
 import Search.BinarySearch;
+import Strings.Haystackneedle;
 import Tree.BinarySearchTree;
 
 public class DsaPrepRunner {
@@ -20,7 +21,8 @@ public class DsaPrepRunner {
             // runMergeIntervals();
             // runReverseLinkedList();
             // runInsertionSort();
-            runQuickSort();
+            // runQuickSort();
+            runHayStackNeedle();
         System.out.println(dashedLine);
     }
 
@@ -107,5 +109,9 @@ public class DsaPrepRunner {
         QuickSort method = new QuickSort();
         method.sort(a, 0, a.length-1);
         InsertionSort.printArray(a);
+    }
+
+    public static void runHayStackNeedle(){
+        System.out.println(Haystackneedle.strStr("hello", "ll"));
     }
 }
