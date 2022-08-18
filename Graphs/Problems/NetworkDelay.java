@@ -6,7 +6,6 @@ import java.util.*;
 class Pair {
     int edge;
     int weight;
-    
     Pair(int edge, int weight){
         this.edge = edge;
         this.weight = weight;
@@ -27,7 +26,6 @@ public class NetworkDelay {
         Arrays.fill(ans, Integer.MAX_VALUE);
         findMinimumPath(n, k, ans);
         int maxValue = 0;
-        Set<Integer> keys = adjency.keySet();
         
         for(int i=1; i<ans.length; i++){
             if(ans[i] == Integer.MAX_VALUE){
