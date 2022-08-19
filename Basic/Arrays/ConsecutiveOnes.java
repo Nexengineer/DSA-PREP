@@ -34,6 +34,6 @@ public class ConsecutiveOnes {
             }
         }
 
-        System.out.println("Start length: " + bestWindow);
+        System.out.println("Start length: " + bestWindow + bestLeft);
     }
 }
