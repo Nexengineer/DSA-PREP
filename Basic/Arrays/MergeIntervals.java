@@ -1,24 +1,30 @@
 package Arrays;
 import java.util.*;
 
-// [Medium]
+// [Medium] https://leetcode.com/problems/merge-intervals/submissions/
 //  1) Check with interviewer if it is sorted
 public class MergeIntervals {
-    public static void compute(int[][] input){
-        Arrays.sort(input, (a, b) -> Integer.compare(a[0], b[0]));
-        LinkedList<int[]> merged = new LinkedList<>();
-        for (int[] interval : input) {
-            // if the list of merged intervals is empty or if the current
-            // interval does not overlap with the previous, simply append it.
-            if (merged.isEmpty() || merged.getLast()[1] < interval[0]) {
-                merged.add(interval);
-            }
-            // otherwise, there is overlap, so we merge the current and previous
-            // intervals.
-            else {
-                merged.getLast()[1] = Math.max(merged.getLast()[1], interval[1]);
+    public int[][] merge(int[][] intervals) {
+        if(intervals.length == 1){
+            return intervals;
+        }
+        
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0],b[0]));
+        List<int []> response = new ArrayList<>();
+        for(int i = 0; i < intervals.length; i++) {
+            if(i == 0) {
+                response.add(intervals[i]);
+            } else {
+                int[] prev = response.get(response.size()-1);
+                int[] curr = intervals[i];
+                if(curr[0] <= prev[1]) {
+                    prev[1] = Math.max(curr[1], prev[1]);
+                }else {
+                    response.add(curr);
+                }
             }
         }
-        System.out.println(merged);
+        
+        return response.toArray(new int[response.size()][2]);
     }
 }
