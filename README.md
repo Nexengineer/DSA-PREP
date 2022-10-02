@@ -4,21 +4,103 @@ Here's a list of few well known DSA questions and their solutions. I'll be addin
 
 ## **Topics**
 ---
-* [Backtracking and Recursion]('https://github.com/Nexengineer/DSA-PREP/tree/master/BacktrackingRecursion')
-* [Arrays]('https://github.com/Nexengineer/DSA-PREP/tree/master/Basic/Arrays')
-* [String]('https://github.com/Nexengineer/DSA-PREP/tree/master/Basic/Strings')
-* [Binary Heap]('https://github.com/Nexengineer/DSA-PREP/tree/master/BinaryHeap')
-* [DP]('https://github.com/Nexengineer/DSA-PREP/tree/master/DP')
-* [Graphs]('https://github.com/Nexengineer/DSA-PREP/tree/master/Graphs/Problems')
-* [Greedy]('https://github.com/Nexengineer/DSA-PREP/tree/master/Greedy')
-* [Linked Lists]('https://github.com/Nexengineer/DSA-PREP/tree/master/LinkedList')
-* [Math]('https://github.com/Nexengineer/DSA-PREP/tree/master/Maths')
-* [Pattern]('https://github.com/Nexengineer/DSA-PREP/tree/master/Patterns')
-* [Queue]('https://github.com/Nexengineer/DSA-PREP/tree/master/Queue')
-* [Searching]('https://github.com/Nexengineer/DSA-PREP/tree/master/Search/Problems')
-* [Sorting]('https://github.com/Nexengineer/DSA-PREP/tree/master/Sort')
-* [Stack]('https://github.com/Nexengineer/DSA-PREP/tree/master/Stack')
-* [Trees]('https://github.com/Nexengineer/DSA-PREP/tree/master/Tree')
+<details>
+<summary>Backtracking and Recursion</summary>
+
+*[Java]('../BacktrackingRecursion/Java')
+</details>
+
+<details>
+<summary>Arrays</summary>
+
+*[Java]('../Basic/Arrays/Java')
+</details>
+
+<details>
+<summary>String</summary>
+
+*[Java]('../Basic/Strings/Java')
+</details>
+
+<details>
+<summary>Binary Heap</summary>
+
+*[Java]('../BinaryHeap/Java')
+</details>
+
+<details>
+<summary>DP</summary>
+
+*[Java]('../DP/Java')
+</details>
+
+<details>
+<summary>Graphs</summary>
+
+*[Java]('../Graphs/Problems/Java')
+</details>
+
+<details>
+<summary>Greedy</summary>
+
+*[Java]('../Greedy/Java')
+</details>
+
+<details>
+<summary>Linked Lists</summary>
+
+*[Java]('../LinkedList/Java')
+</details>
+
+<details>
+<summary>Math</summary>
+
+*[Java]('../Maths/Java')
+</details>
+
+<details>
+<summary>Pattern</summary>
+
+*[Java]('../Patterns/Java')
+</details>
+
+<details>
+<summary>Queue</summary>
+
+*[Swift]('../Queue/Swift')
+</details>
+
+<details>
+<summary>Searching</summary>
+
+*[Search]('../Search/Problems/Java')
+</details>
+
+<details>
+<summary>Sorting</summary>
+
+*[Java]('../Sort/Java')
+*[Python]('../Sort/Python')
+</details>
+
+<details>
+<summary>Stack</summary>
+
+*[Java]('../Stack/Java')
+*[C++]('../Stack/C++')
+</details>
+
+<details>
+<summary>Trees</summary>
+
+*[Java]('../Trees/Java')
+</details>
+
+<details>
+<summary>Recursion</summary>
+
+*[Python]('../Recursion/Python')
+</details>
 
 ---
 ### **Contributing**
