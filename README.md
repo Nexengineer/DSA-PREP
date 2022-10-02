@@ -7,99 +7,99 @@ Here's a list of few well known DSA questions and their solutions. I'll be addin
 <details>
 <summary>Backtracking and Recursion</summary>
 
-[Java]('../BacktrackingRecursion/Java')
+[Java](/BacktrackingRecursion/Java)
 </details>
 
 <details>
 <summary>Arrays</summary>
 
-[Java]('../Basic/Arrays/Java')
+[Java](/Basic/Arrays/Java)
 </details>
 
 <details>
 <summary>String</summary>
 
-[Java]('../Basic/Strings/Java')
+[Java](/Basic/Strings/Java)
 </details>
 
 <details>
 <summary>Binary Heap</summary>
 
-[Java]('../BinaryHeap/Java')
+[Java](/BinaryHeap/Java)
 </details>
 
 <details>
 <summary>DP</summary>
 
-[Java]('../DP/Java')
+[Java](/DP/Java)
 </details>
 
 <details>
 <summary>Graphs</summary>
 
-[Java]('../Graphs/Problems/Java')
+[Java](/Graphs/Problems/Java)
 </details>
 
 <details>
 <summary>Greedy</summary>
 
-[Java]('../Greedy/Java')
+[Java](/Greedy/Java)
 </details>
 
 <details>
 <summary>Linked Lists</summary>
 
-[Java]('../LinkedList/Java')
+[Java](/LinkedList/Java)
 </details>
 
 <details>
 <summary>Math</summary>
 
-[Java]('../Maths/Java')
+[Java](/Maths/Java)
 </details>
 
 <details>
 <summary>Pattern</summary>
 
-[Java]('../Patterns/Java')
+[Java](/Patterns/Java)
 </details>
 
 <details>
 <summary>Queue</summary>
 
-[Swift]('../Queue/Swift')
+[Swift](/Queue/Swift)
 </details>
 
 <details>
 <summary>Searching</summary>
 
-[Java]('../Search/Problems/Java')
+[Java](/Search/Problems/Java)
 </details>
 
 <details>
 <summary>Sorting</summary>
 
-[Java]('../Sort/Java')  
-[Python]('../Sort/Python')
+[Java](/Sort/Java)  
+[Python](/Sort/Python)
 </details>
 
 <details>
 <summary>Stack</summary>
 
-[Java]('../Stack/Java')  
-[C++]('../Stack/C++')
+[Java](/Stack/Java)  
+[C++](/Stack/C++)
 </details>
 
 <details>
 <summary>Trees</summary>
 
-[Java]('../Trees/Java')
+[Java](/Trees/Java)
 </details>
 
 <details>
 <summary>Recursion</summary>
 
-[Python]('../Recursion/Python')
+[Python](/Recursion/Python)
 </details>
 
 ---
