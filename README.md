@@ -4,7 +4,7 @@ Here's a list of few well known DSA questions and their solutions. I'll be addin
 
 ## **Topics**
 ---
-* [Backtracking and Recursion]('https://github.com/Nexengineer/DSA-PREP/tree/master/BacktrackingRecursion')
+* [Backtracking and Recursion]('https://github.com/Aratrik-02/DSA-PREP-modify-readme/tree/branch-Aratrik/BacktrackingRecursion')
 * [Arrays]('https://github.com/Nexengineer/DSA-PREP/tree/master/Basic/Arrays')
 * [String]('https://github.com/Nexengineer/DSA-PREP/tree/master/Basic/Strings')
 * [Binary Heap]('https://github.com/Nexengineer/DSA-PREP/tree/master/BinaryHeap')
