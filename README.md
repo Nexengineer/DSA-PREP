@@ -73,20 +73,20 @@ Here's a list of few well known DSA questions and their solutions. I'll be addin
 <details>
 <summary>Searching</summary>
 
-[Search]('../Search/Problems/Java')
+[Java]('../Search/Problems/Java')
 </details>
 
 <details>
 <summary>Sorting</summary>
 
-[Java]('../Sort/Java')
+[Java]('../Sort/Java')  
 [Python]('../Sort/Python')
 </details>
 
 <details>
 <summary>Stack</summary>
 
-[Java]('../Stack/Java')
+[Java]('../Stack/Java')  
 [C++]('../Stack/C++')
 </details>
 
