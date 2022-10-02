@@ -19,3 +19,9 @@ Here's a list of few well known DSA questions and their solutions. I'll be addin
 * [Sorting]('https://github.com/Nexengineer/DSA-PREP/tree/master/Sort')
 * [Stack]('https://github.com/Nexengineer/DSA-PREP/tree/master/Stack')
 * [Trees]('https://github.com/Nexengineer/DSA-PREP/tree/master/Tree')
+
+### **Contributing**
+[Read this](contribution.md)
+
+### **Code of conduct**
+[Read this](code_of_conduct.md)
