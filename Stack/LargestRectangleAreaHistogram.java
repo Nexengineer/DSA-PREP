@@ -1,7 +1,8 @@
 import java.util.*;
 import java.io.*;
 class LargestRectangleAreaHistogram{
-  public static int largestRectangleArea(int[] heights) {
+  private int largestRectangleArea(int[] heights) 
+  {
     int i=0,ans=0,t;
     Stack<Integer> st=new Stack<>();
     while(i<heights.length)
@@ -19,16 +20,18 @@ class LargestRectangleAreaHistogram{
             ans=Math.max(ans,heights[t]*(st.isEmpty()?i:i-st.peek()-1));
     }
     return ans;
-}
-public static void main (String[] args) {
-  Scanner sc=new Scanner(System.in);
- System.out.print("Enter number of bars in histogram");
- int n=sc.nextInt();
- int h[]=new int[n];
- System.out.print("Enter heights");
- for(int i=0;i<n;i++)
-  h[i]=sc.nextInt();
- 
-System.out.println("Area of largest rectagle :"+largestRectangleArea(h));
-}
+  }
+
+  public void solution()
+  {
+    Scanner sc=new Scanner(System.in);
+    System.out.print("Enter number of bars in histogram");
+    int n=sc.nextInt();
+    int h[]=new int[n];
+    System.out.print("Enter heights");
+    for(int i=0;i<n;i++)
+     h[i]=sc.nextInt();
+    int ans=largestRectangleArea(h);
+    System.out.println("Area of largest rectangle in the histogram :"+ans);
+  }
 }
