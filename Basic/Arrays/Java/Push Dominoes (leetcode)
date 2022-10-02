@@ -1,0 +1,55 @@
+//https://leetcode.com/problems/push-dominoes/
+
+class Solution {
+    public void solve(StringBuilder s, int st, int en){
+        while(st < en){
+            s.replace(st, st+1, "R");
+            s.replace(en, en+1, "L");
+            st++;
+            en--;
+        }
+    }
+    public String pushDominoes(String dominoes) {
+        StringBuilder s = new StringBuilder(dominoes);
+        int n = dominoes.length();
+        int lastr = -1;
+        ArrayList<ArrayList<Integer>> arr = new ArrayList<ArrayList<Integer>>();
+        Set<Integer> set = new HashSet<Integer>();
+        for(int i=0;i<n;i++){
+            if(lastr != -1 && s.charAt(i) == 'L'){
+                ArrayList<Integer> temp = new ArrayList<Integer>();
+                temp.add(lastr);
+                temp.add(i);
+                arr.add(temp);
+                for(int j = lastr;j<=i;j++){
+                    set.add(j);
+                }
+                lastr = -1;
+            }
+            else if(s.charAt(i) == 'R'){
+                lastr = i;
+            }
+        }
+        for(int i=0;i<arr.size();i++){
+            solve(s, arr.get(i).get(0), arr.get(i).get(1));
+        }
+        for(int i=0;i<n;i++){
+            if(s.charAt(i) == 'L' && !set.contains(i)){
+                int k = i;
+                while(k >= 0 && !set.contains(k)){
+                    s.replace(k, k+1, "L");
+                    k--;
+                }
+            }
+            else if(s.charAt(i) == 'R' && !set.contains(i)){
+                int k = i;
+                while(k < n && !set.contains(k)){
+                    s.replace(k, k+1, "R");
+                    k++;
+                }
+                i = k;
+            }
+        }
+        return s.toString();
+    }
+}
