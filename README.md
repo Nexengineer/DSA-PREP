@@ -7,99 +7,111 @@ Here's a list of few well known DSA questions and their solutions. I'll be addin
 <details>
 <summary>Backtracking and Recursion</summary>
 
-[Java](/BacktrackingRecursion/Java)
+* [Explanation](/Readme's/Recursion.md)
+* [Java](/BacktrackingRecursion/Java)
 </details>
 
 <details>
 <summary>Arrays</summary>
 
-[Java](/Basic/Arrays/Java)
+* [Explanation](/Readme's/Arrays.md)
+* [Java](/Basic/Arrays/Java)
 </details>
 
 <details>
 <summary>String</summary>
 
-[Java](/Basic/Strings/Java)
+* [Explanation](/Readme's/String.md)
+* [Java](/Basic/Strings/Java)
 </details>
 
 <details>
 <summary>Binary Heap</summary>
 
-[Java](/BinaryHeap/Java)
+* [Explanation](/Readme's/BinaryHeap.md)
+* [Java](/BinaryHeap/Java)
 </details>
 
 <details>
 <summary>DP</summary>
 
-[Java](/DP/Java)
+* [Explanation](/Readme's/DP.md)
+* [Java](/DP/Java)
 </details>
 
 <details>
 <summary>Graphs</summary>
 
-[Java](/Graphs/Problems/Java)
+* [Explanation](/Readme's/Graphs.md)
+* [Java](/Graphs/Problems/Java)
 </details>
 
 <details>
 <summary>Greedy</summary>
 
-[Java](/Greedy/Java)
+* [Explanation](/Readme's/Greedy.md)
+* [Java](/Greedy/Java)
 </details>
 
 <details>
 <summary>Linked Lists</summary>
 
-[Java](/LinkedList/Java)
+* [Explanation](/Readme's/LinkedList.md)
+* [Java](/LinkedList/Java)
 </details>
 
 <details>
 <summary>Math</summary>
 
-[Java](/Maths/Java)
+* [Java](/Maths/Java)
 </details>
 
 <details>
 <summary>Pattern</summary>
 
-[Java](/Patterns/Java)
+* [Java](/Patterns/Java)
 </details>
 
 <details>
 <summary>Queue</summary>
 
-[Swift](/Queue/Swift)
+* [Explanation](/Readme's/Queue.md)
+* [Swift](/Queue/Swift)
 </details>
 
 <details>
 <summary>Searching</summary>
 
-[Java](/Search/Problems/Java)
+* [Java](/Search/Problems/Java)
 </details>
 
 <details>
 <summary>Sorting</summary>
 
-[Java](/Sort/Java)  
-[Python](/Sort/Python)
+* [Java](/Sort/Java)  
+* [Python](/Sort/Python)
 </details>
 
 <details>
 <summary>Stack</summary>
 
-[Java](/Stack/Java)  
-[C++](/Stack/C++)
+* [Explanation](/Readme's/Stack.md)
+* [Java](/Stack/Java)  
+* [C++](/Stack/C++)
 </details>
 
 <details>
 <summary>Trees</summary>
 
-[Java](/Trees/Java)
+* [Explanation](/Readme's/Trees.md)
+* [Java](/Trees/Java)
 </details>
 
 <details>
 <summary>Recursion</summary>
 
-[Python](/Recursion/Python)
+* [Explanation](/Readme's/Recursion.md)
+* [Python](/Recursion/Python)
 </details>
 
 ---
