@@ -66,11 +66,9 @@ public class MainClass
 
             System.out.println();
 
-        }         
+}         
 
-        //Closing the resources        
 
-        sc.close();
 
     }
 
