@@ -43,7 +43,7 @@ Here's a list of few well known DSA questions and their solutions. I'll be addin
 <summary>Bitmasking</summary>
 
 * [Explanation](/Readme's/Bitmasking.md)
-* [C++](/Bitmasking/C++)
+* [C++](/Bitmasks/C++)
 </details>
 
 <details>
