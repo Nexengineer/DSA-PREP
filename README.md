@@ -40,6 +40,13 @@ Here's a list of few well known DSA questions and their solutions. I'll be addin
 </details>
 
 <details>
+<summary>Bitmasking</summary>
+
+* [Explanation](/Readme's/Bitmasking.md)
+* [C++](/Bitmasks/C++)
+</details>
+
+<details>
 <summary>Graphs</summary>
 
 * [Explanation](/Readme's/Graphs.md)
