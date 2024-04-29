@@ -3,3 +3,4 @@
 *.iml
 .vscode/
 .fleet/
+out/
